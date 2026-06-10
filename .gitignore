@@ -1,6 +1,3 @@
-# ==========================
-# Python
-# ==========================
 __pycache__/
 *.py[cod]
 *$py.class
@@ -20,27 +17,15 @@ share/python-wheels/
 lib/
 lib64/
 MANIFEST
-
-# ==========================
-# Virtual Environments
-# ==========================
 .venv/
 venv/
 env/
 ENV/
 .env.bak
 .venv.bak
-
-# ==========================
-# Environment Variables
-# ==========================
 .env
 .env.local
 .env.*.local
-
-# ==========================
-# Distribution / Packaging
-# ==========================
 *.manifest
 *.spec
 pip-log.txt
@@ -57,56 +42,28 @@ coverage.xml
 *.py,cover
 .hypothesis/
 .pytest_cache/
-
-# ==========================
-# Jupyter Notebook
-# ==========================
 .ipynb_checkpoints
 *.ipynb
-
-# ==========================
-# mypy / type checkers
-# ==========================
 .mypy_cache/
 .dmypy.json
 dmypy.json
 .pyre/
-
-# ==========================
-# IDEs & Editors
-# ==========================
-# VSCode
 .vscode/
 *.code-workspace
-
-# PyCharm / JetBrains
 .idea/
 *.iml
 *.iws
-
-# Vim
 *.swp
 *.swo
 *~
-
-# ==========================
-# OS Generated
-# ==========================
-# macOS
 .DS_Store
 .AppleDouble
 .LSOverride
-
-# Windows
 Thumbs.db
 ehthumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 *.lnk
-
-# ==========================
-# Logs & Temp Files
-# ==========================
 *.log
 *.tmp
 *.bak
